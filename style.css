@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: roboto_regular;
+    src: url(./Roboto-Regular.ttf);
+}
+
+body {
+    font-family: roboto_regular;
+}
+
+.network_feed, .bodyContainer {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#network {
+    background-color: black;
+    color: white;
+    padding: 1% 2%;
+}
+
+#feed {
+    text-align: center;
+    padding: 1% 0;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.bodyContainer {
+    gap: 20px;
+}
+
+.leftColumn, .person {
+    border: 3px solid black;
+}
+
+.leftColumn {
+    flex: 1;
+    padding: 3% 2%;
+}
+
+.user_info, .anchorContainer {
+    text-align: center;
+}
+
+.anchorContainer {
+    margin-bottom: 20px;
+}
+
+a {
+    font-size: 1.2em;
+    color: hsl(208deg 90% 31%);
+    text-decoration-line: underline;
+}
+
+#user_icon {
+    width: 100%;
+    padding: 20px 30px;
+}
+
+.rightColumn {
+    flex: 3;
+}
+
+.person {
+    margin-bottom: 1%;
+    padding: 3% 3%;
+}
+
+.person_top {
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    padding: .5em 1em;
+    background-color: #ffd966;
+    box-shadow: 3px 3px black;
+    border: 3px solid black;
+    font-size: 1em;
+}
+
+.person_bottom {
+    padding-top: 10px;
+}
+
+
