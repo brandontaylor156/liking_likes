@@ -17,6 +17,7 @@ function addLike(element) {
 
 function over(element) {
     element.style.backgroundColor = "lime";
+    element.style.cursor = "pointer";
 }
 
 function out(element) {
