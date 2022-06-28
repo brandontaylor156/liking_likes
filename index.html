@@ -8,34 +8,41 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Black and white bars at top of web page -->
     <header class="network_feed">
         <h2 id="network">Network</h2>
         <h2 id="feed">Your Feed</h2>
     </header>
 
+    <!-- Container for feed contents -->
     <div class="bodyContainer flex">
+
+        <!-- Left Column-->
         <div class="leftColumn">
             <img id="user_icon" class="user_info" src="./user-circle.png" alt="user-circle">
-            
             <div class="anchorContainer">
                 <a id="user_link" class="user_info" href="">Add an avatar</a>
             </div>
-
             <h2 class="user_info">James Doe</h2>
         </div>
+        <!-- End of left column -->
+
+        <!-- Right column -->
         <div class="rightColumn">
 
+            <!-- Neil Container -->
             <div class="person">
                 <div class="person_top flex">
                     <h2>Neil M</h2>
                     <p><span id="neil">9</span> like(s)</p>
                     <button id="neilButton" onmouseover="over(this)" onmouseout="out(this)" onclick="addLike(this)">Like</button>
-                </div>
+                </di v>
                 <div class="person_bottom">
                     <p>I just set up this new discord bot, let me know what you all think. <a>link</a></p>
                 </div>
             </div>
 
+            <!-- Nichole Container -->
             <div class="person">
                 <div class="person_top flex">
                     <h2>Nichole K</h2>
@@ -47,6 +54,7 @@
                 </div>
             </div>
 
+            <!-- Jim Container -->
             <div class="person">
                 <div class="person_top flex">
                     <h2>Jim R</h2>
@@ -57,9 +65,10 @@
                     <p>I can't stop listening to the <a>new album</a>. Who else is liking it?</p>
                 </div>
             </div>
-
         </div>
+         <!-- End right column -->
     </div>
+    <!-- End main containter -->
     <script src="./script.js"></script>
 </body>
 </html>

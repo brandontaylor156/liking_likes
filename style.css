@@ -21,7 +21,7 @@ body {
 #network {
     background-color: black;
     color: white;
-    padding: 1% 2%;
+    padding: .5em 1em;
 }
 
 #feed {
@@ -45,7 +45,7 @@ body {
 
 .leftColumn {
     flex: 1;
-    padding: 3% 2%;
+    padding: 1.5em 1em;
 }
 
 .user_info, .anchorContainer {
@@ -64,7 +64,7 @@ a {
 
 #user_icon {
     width: 100%;
-    padding: 20px 30px;
+    padding: 1em;
 }
 
 .rightColumn {
