@@ -2,11 +2,13 @@ function addLike(element) {
     element.innerText++;
 }
 
-function over(element) {
-    element.style.backgroundColor = "lime";
-    element.style.cursor = "pointer";
-}
-
-function out(element) {
-    element.style.backgroundColor = "#ffd966";
+function toggleButton(element) {
+    if (element.style.backgroundColor != 'lime')
+    {
+        element.style.backgroundColor = "lime";
+        element.style.cursor = "pointer";
+    }
+    else 
+        element.style.backgroundColor = "rgb(255, 217, 102)";
+    
 }
