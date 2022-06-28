@@ -10,9 +10,9 @@ function addLike(element) {
         likeTrackerIndex = 2;
     }
 
-    let numLikes = document.querySelector(likeTracker[likeTrackerIndex]).innerHTML;
+    let numLikes = document.querySelector(likeTracker[likeTrackerIndex]).innerText;
     numLikes++;
-    document.querySelector(likeTracker[likeTrackerIndex]).innerHTML = numLikes;
+    document.querySelector(likeTracker[likeTrackerIndex]).innerText = numLikes;
 }
 
 function over(element) {
